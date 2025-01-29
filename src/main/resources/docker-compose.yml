@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatappimage:
+    image: chatappimage:1.0
+    container_name: chatappimage
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb+srv://ayurana87:Abhi123@cluster0.cdxcp.mongodb.net/chatapp?retryWrites=true&w=majority&ssl=true
+      - SPRING_DATA_MONGODB_DATABASE=chatapp

@@ -1,0 +1,8 @@
+com\chat\controller\ChatController.class
+com\chat\repository\RoomRepository.class
+com\chat\config\WebSocketConfig.class
+com\chat\controller\RoomController.class
+com\chat\ChatApplication.class
+com\chat\payload\MessageRequest.class
+com\chat\entities\Message.class
+com\chat\entities\Room.class
